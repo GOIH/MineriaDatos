@@ -12,7 +12,6 @@ from sklearn.metrics import roc_auc_score, classification_report
 # Cargar datos
 df = pd.read_csv("/Users/clarapinto/Desktop/MineriaDatos/data/test.csv")
 
-# Variables que te tocan
 target = "satisfaction"
 selected_cols = [
     "Leg room service",
